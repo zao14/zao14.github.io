@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Olahan Buah & Sayur Halal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url(anggur.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .container {
+      position: relative;
+      z-index: 2;
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #a2fdd4;
+      margin-bottom: 40px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .menu-item {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: rgba(5, 5, 5, 0.921);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(4px);
+      transition: transform 0.2s ease;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.03);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .menu-item h3 {
+      margin: 15px 0 5px;
+      color: #ffffff;
+    }
+
+    .menu-item p {
+      font-size: 14px;
+      color: #dcdcdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>Menu Olahan Buah & Sayur Halal</h1>
+    <div class="menu-grid">
+      
+      <a href="salad.html" class="menu-item">
+        <img src="pasta salad.jpg" alt="Salad Buah Segar">
+        <h3>Salad Buah Segar</h3>
+        <p>Campuran buah tropis dengan saus yogurt halal. Segar dan bergizi.</p>
+      </a>
+
+      <a href="jus.html" class="menu-item">
+        <img src="jus.jpg" alt="Jus Buah dan Sayur">
+        <h3>Jus Buah dan Sayur</h3>
+        <p>Minuman sehat dari bayam, apel, dan jeruk nipis. Tanpa pemanis buatan.</p>
+      </a>
+
+      <a href="kue-basah.html" class="menu-item">
+        <img src="kue basah.jpg" alt="Aneka Kue Basah">
+        <h3>Aneka Kue Basah</h3>
+        <p>Aneka kue basah yang enak dan halal.</p>
+      </a>
+
+      <a href="roti.html" class="menu-item">
+        <img src="roti.jpg" alt="Aneka Roti">
+        <h3>Aneka Roti</h3>
+        <p>Roti yang halal pastinya, cocok untuk sarapan dan camilan.</p>
+      </a>
+
+      <a href="rujak.html" class="menu-item">
+        <img src="rujak.jpg" alt="Rujak Buah">
+        <h3>Rujak Buah</h3>
+        <p>Rujak buah yang segar dengan bumbu kacang khas Indonesia.</p>
+      </a>
+
+      <a href="kripik.html" class="menu-item">
+        <img src="Rempeyek.jpg" alt="Aneka Kripik">
+        <h3>Aneka Kripik</h3>
+        <p>Kriuk dan renyah, cocok untuk teman santai halal.</p>
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>

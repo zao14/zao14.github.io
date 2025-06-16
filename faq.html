@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Sertifikasi Halal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #005f4b;
+      margin-bottom: 20px;
+    }
+    .faq {
+      margin-bottom: 20px;
+    }
+    .faq h3 {
+      background-color: #005f4b;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0;
+    }
+    .faq p {
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-left: 4px solid #005f4b;
+      display: none;
+    }
+    .faq.active p {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>FAQ Sertifikasi Halal</h1>
+
+    <div class="faq">
+      <h3>Apa itu Sertifikat Halal?</h3>
+      <p>Sertifikat Halal adalah fatwa tertulis yang diterbitkan oleh BPJPH untuk produk yang telah dinyatakan halal setelah melalui proses pendaftaran, audit oleh LPH, dan rapat Komisi Fatwa MUI.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Apa itu LPH?</h3>
+      <p>LPH adalah Lembaga Pemeriksa Halal yang memiliki wewenang untuk melaksanakan pemeriksaan dan audit atas kehalalan produk yang diajukan oleh pelaku usaha melalui BPJPH.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Apa itu BPJPH?</h3>
+      <p>BPJPH adalah Badan Penyelenggara Jaminan Produk Halal yang bertugas melaksanakan penyelenggaraan jaminan produk halal sesuai dengan ketentuan peraturan perundang-undangan.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Produk apa saja yang dapat disertifikasi halal?</h3>
+      <p>Produk yang dapat disertifikasi halal antara lain produk pangan, obat-obatan, kosmetik, barang gunaan (bahan kimia, sabun, detergen, kulit, filter air, dsb).</p>
+    </div>
+
+    <div class="faq">
+      <h3>Bagaimana prosedur sertifikasi halal?</h3>
+      <p>Perusahaan harus menyiapkan dokumen terkait Sistem Jaminan Halal dan mengimplementasikan, mengevaluasi (audit internal), dan melakukan tindakan perbaikan jika terdapat kelemahan terkait Sistem Jaminan Halal. Setelah proses tersebut dilakukan, perusahaan dapat mendaftar untuk sertifikasi halal.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Berapa lama proses sertifikasi halal?</h3>
+      <p>Proses sertifikasi halal hanya memerlukan dua puluh satu (21) hari kerja.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Berapa lama masa berlaku sertifikat halal?</h3>
+      <p>Sertifikat Halal berlaku selama empat (4) tahun, dan dapat diperpanjang.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Apakah Sertifikasi Halal dikenakan biaya?</h3>
+      <p>Sertifikasi halal dengan 'self declare' tidak dikenakan biaya. Sedangkan sertifikasi dengan proses reguler, sebesar:
+        <ul>
+          <li>Usaha Mikro dan Kecil: Rp. 300.000 – 350.000</li>
+          <li>Usaha Menengah: Rp. 5.000.000 – Rp. 21.125.000</li>
+          <li>Usaha Besar: Rp. 12.500.000 – Rp. 21.125.000</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="faq">
+      <h3>Bagaimana prosedur perpanjangan sertifikat halal?</h3>
+      <p>Sertifikat Halal wajib diperpanjang oleh pelaku usaha dengan mengajukan perpanjangan Sertifikat Halal paling lambat 3 (tiga) bulan sebelum masa berlaku Sertifikat Halal berakhir, dan diajukan secara tertulis dalam Bahasa Indonesia kepada BPJPH.</p>
+    </div>
+  </div>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq');
+    faqItems.forEach(item => {
+      item.querySelector('h3').addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
